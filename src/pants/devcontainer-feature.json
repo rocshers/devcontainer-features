@@ -1,0 +1,10 @@
+{
+    "name": "Pants Build",
+    "id": "pants",
+    "version": "2.26.0",
+    "description": "Pants is a fast, scalable, user-friendly build system for codebases of all sizes. It's currently focused on Python, Go, Java, Scala, Kotlin, Shell, and Docker, with support for other languages and frameworks coming soon.",
+    "options": {},
+    "dependsOn":{
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    }
+}
