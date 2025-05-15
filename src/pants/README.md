@@ -1,15 +1,13 @@
 
-# My Favorite Color (color)
+# Pants Build (pants)
 
-A feature to remind you of your favorite color
+Pants is a fast, scalable, user-friendly build system for codebases of all sizes. It's currently focused on Python, Go, Java, Scala, Kotlin, Shell, and Docker, with support for other languages and frameworks coming soon.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
-        "version": "latest"
-    }
+    "ghcr.io/rocshers/devcontainer-features/pants:2": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/rocshers/devcontainer-features/blob/main/src/pants/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
