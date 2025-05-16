@@ -1,7 +1,7 @@
 {
     "id": "uv",
     "name": "Python UV",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "An extremely fast Python package and project manager, written in Rust.",
     "documentationURL": "https://docs.astral.sh/uv/",
     "options": {},
@@ -23,6 +23,9 @@
             "source": "dev-containers-features-uv-cache",
             "target": "${HOME}/.cache/uv",
             "type": "volume"
-        },
-    ]
+        }
+    ],
+    "containerEnv": {
+        "PATH": "${HOME}/.local/bin:${PATH}"
+    }
 }
