@@ -2,7 +2,9 @@
     "uv": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "uv": {}
+            "uv": {
+                "version": "0.7.3"
+            }
         }
     }
 }

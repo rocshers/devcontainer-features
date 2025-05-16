@@ -4,6 +4,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "execute command" bash -c "uv --version"
+check "uv" uv --version | grep 0.7.3
 
 reportResults

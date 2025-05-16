@@ -4,8 +4,18 @@
     "version": "1.0.3",
     "description": "An extremely fast Python package and project manager, written in Rust.",
     "documentationURL": "https://docs.astral.sh/uv/",
-    "options": {},
+    "options": {
+        "version": {
+            "default": "0.7.4",
+            "description": "Version to install",
+            "proposals": [
+                "0.7.4"
+            ],
+            "type": "string"
+        }
+    },
     "dependsOn":{
+        "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/devcontainers/features/common-utils:2": {}
     },
     "customizations": {
@@ -24,8 +34,5 @@
             "target": "${HOME}/.cache/uv",
             "type": "volume"
         }
-    ],
-    "containerEnv": {
-        "PATH": "${HOME}/.local/bin:${PATH}"
-    }
+    ]
 }
