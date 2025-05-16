@@ -1,7 +1,7 @@
 {
     "id": "pants",
     "name": "Pants Build",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "Pants is a fast, scalable, user-friendly build system for codebases of all sizes. It's currently focused on Python, Go, Java, Scala, Kotlin, Shell, and Docker, with support for other languages and frameworks coming soon.",
     "documentationURL": "https://www.pantsbuild.org/",
     "options": {},
