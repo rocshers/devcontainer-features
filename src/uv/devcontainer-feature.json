@@ -1,0 +1,28 @@
+{
+    "id": "uv",
+    "name": "Python UV",
+    "version": "1.0.2",
+    "description": "An extremely fast Python package and project manager, written in Rust.",
+    "documentationURL": "https://docs.astral.sh/uv/",
+    "options": {},
+    "dependsOn":{
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "mounts": [
+        {
+            "source": "dev-containers-features-uv-share",
+            "target": "${HOME}/.local/share/uv",
+            "type": "volume"
+        },
+        {
+            "source": "dev-containers-features-uv-cache",
+            "target": "${HOME}/.cache/uv",
+            "type": "volume"
+        },
+    ]
+}

@@ -13,6 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
+          - uv
           - pants
         baseImage:
           - debian:latest
@@ -33,6 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
+          - uv
           - pants
     steps:
       - uses: actions/checkout@v4

@@ -1,7 +1,7 @@
 {
     "id": "pants",
     "name": "Pants Build",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Pants is a fast, scalable, user-friendly build system for codebases of all sizes. It's currently focused on Python, Go, Java, Scala, Kotlin, Shell, and Docker, with support for other languages and frameworks coming soon.",
     "documentationURL": "https://www.pantsbuild.org/",
     "options": {},
@@ -15,12 +15,12 @@
     },
     "mounts": [
         {
-            "source": "dev-containers-features-pants-nce-cache-${devcontainerId}",
+            "source": "dev-containers-features-pants-cache-nce",
             "target": "${HOME}/.cache/nce",
             "type": "volume"
         },
         {
-            "source": "dev-containers-features-pants-named-cache-${devcontainerId}",
+            "source": "dev-containers-features-pants-cache",
             "target": "${HOME}/.cache/pants/named_caches",
             "type": "volume"
         }
