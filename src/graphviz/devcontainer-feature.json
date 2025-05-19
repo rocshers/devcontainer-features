@@ -1,0 +1,18 @@
+{
+    "id": "graphviz",
+    "name": "graphviz",
+    "version": "1.0.1",
+    "description": "Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks.",
+    "documentationURL": "https://graphviz.org/",
+    "options": {},
+    "dependsOn":{
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": []
+        }
+    },
+    "mounts": []
+}
